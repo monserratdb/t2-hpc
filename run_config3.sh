@@ -20,4 +20,4 @@ export NUMBA_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
 # Ejecutar
-mpirun -n $SLURM_NTASKS python kmeans_distributed.p
+mpirun -n $SLURM_NTASKS python kmeans_distributed.py
